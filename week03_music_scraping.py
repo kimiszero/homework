@@ -17,8 +17,8 @@ for music in musics:
     print(rank, title, artist)
 
     doc = {
-        'rank' : rank,
-        'title' : title,
-        'artist' : artist
+        'rank': rank,
+        'title': title,
+        'artist': artist
     }
     db.musics.insert_one(doc)
